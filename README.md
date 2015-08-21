@@ -10,6 +10,6 @@ This is my second python projects. There are still many interesting problems her
 
 3. Implement functions for calculating log-likelihood and gradients by using matrix calculation.
 
-4. Pass log-likelihood function, gradients function and initial lambda into 'scipy.optimize.fmin_l_bfgs_b' function and get the optimum value for lambda.
+4. Pass log-likelihood function, gradients function and initial lambda into 'scipy.optimize.fmin_l_bfgs_b' function, which is a black box function for getting 'minimum'. Now we get the optimum value for lambda.
 
 5. In test part, calculate likelihood of M and W. Then get the argmax_y(P(y|X)).
